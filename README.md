@@ -125,33 +125,6 @@ SF_CALLBACK_URL=https://your-render-app.onrender.com/api/auth/callback
 
 > The Salesforce callback URL must exactly match the deployed callback URL. If the callback URL does not match, OAuth login fails.
 
-### Important deployment note
 
-The app is built as a single Express backend + Vite frontend project. The backend serves the frontend build when it is deployed in production.
 
-## Submission checklist
 
-Before sending the assignment, confirm you have:
-
-- [ ] Salesforce Developer Org created
-- [ ] Connected App created
-- [ ] OAuth 2.0 working
-- [ ] CRUD working for Account, Opportunity, Lead, Contact, and Case
-- [ ] 20-record pagination working
-- [ ] GitHub repository link ready
-- [ ] public deployment link ready
-- [ ] resume updated
-- [ ] final email prepared to careers@cloudvandana.com
-
-## Final submission email contents
-
-Send:
-
-- deployed application link
-- GitHub repository link
-- updated resume
-- email to: careers@cloudvandana.com
-
-## Notes
-
-This project is intentionally simple and beginner-friendly. It is designed for a fresher-level assignment and avoids unnecessary complexity. The real Salesforce credentials and public deployment link are required for the final submission to be valid.
